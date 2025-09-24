@@ -1,0 +1,5 @@
+//enum
+
+public class Grade {
+    
+}
