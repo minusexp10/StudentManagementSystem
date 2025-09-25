@@ -1,5 +1,0 @@
-//enum
-
-public class Semester {
-    
-}

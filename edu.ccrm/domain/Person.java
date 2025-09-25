@@ -1,5 +1,0 @@
-//Abstract
-
-public class Person {
-    
-}
