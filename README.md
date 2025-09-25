@@ -1,151 +1,90 @@
-Campus Course Records Manager
+# Campus Course Records Manager
 
-Evolution of Java
+## Evolution of Java
 
-1995: Java 1.0 launched by Sun Microsystems.
+- 1995: Java 1.0 released by Sun Microsystems.
+- 1998: Java 2 introduced Java SE, EE, and ME editions.
+- 2006: Sun releases Java under GPL, Oracle acquires Sun.
+- 2011: Java SE 7 released with new language features.
+- 2014: Java SE 8 introduces lambdas and streams.
+- 2017: Java SE 9 with modular system.
+- 2024: Latest versions include up to Java SE 24 with many enhancements.
 
-1998: Java 2 introduced, splitting into SE, EE, and ME editions.
+## Java Editions: ME vs SE vs EE
 
-2006: Sun made Java open-source under GPL; later Oracle acquired Sun.
+| Edition      | Description                        | Use Case                        |
+|--------------|------------------------------------|---------------------------------|
+| Java ME      | Micro Edition for embedded systems | Mobile phones, IoT devices      |
+| Java SE      | Standard Edition for desktop/server| Desktop applications, utilities |
+| Java EE      | Enterprise Edition for large apps  | Web/Enterprise servers, services|
 
-2011: Java SE 7 delivered with new language improvements.
+## Java Architecture: JDK, JRE, JVM
 
-2014: Java SE 8 brought lambdas and the Streams API.
+- **JDK (Java Development Kit):**  
+  Full development kit including compiler (javac), libraries, and tools.
 
-2017: Java SE 9 introduced the modular system.
+- **JRE (Java Runtime Environment):**  
+  Includes JVM and core libraries to run Java applications but no development tools.
 
-2024: Latest releases go up to Java SE 24 with continuous enhancements.
+- **JVM (Java Virtual Machine):**  
+  Executes Java bytecode on a given platform providing portability.
 
+### Interaction:  
+Developers write code → JDK compiles code → JVM runs compiled bytecode with JRE supporting runtime.
 
-Java Editions: ME vs SE vs EE
+## Installing and Configuring Java on Windows
 
-Edition	Description	Example Use Cases
+1. Download the latest Java JDK from [Oracle/OpenJDK site].
+2. Run the installer and follow instructions.
+3. Set environment variables:
+   - Add `JAVA_HOME` pointing to JDK installation directory.
+   - Append `%JAVA_HOME%\bin` to the `Path` variable.
 
-Java ME	Micro Edition, optimized for devices	IoT gadgets, feature phones
-Java SE	Standard Edition for general purpose	Desktop software, tools, servers
-Java EE	Enterprise Edition for large systems	Web apps, enterprise solutions
+## Using Eclipse IDE: New Project Creation and Run Configurations
 
-
-Java Architecture: JDK, JRE, JVM
-
-JDK (Java Development Kit):
-A complete toolkit for Java development, including javac, libraries, and debugging tools.
-
-JRE (Java Runtime Environment):
-Contains JVM and standard libraries to run Java apps, but lacks compiler tools.
-
-JVM (Java Virtual Machine):
-Runs compiled bytecode and ensures platform independence.
-
-
-Workflow:
-
-Write Java code → Compile with JDK → Run bytecode on JVM (with JRE support).
-
-Installing and Setting up Java on Windows
-
-1. Download the latest JDK from the [Oracle/OpenJDK website].
-
-
-2. Install following the setup wizard.
-
-
-3. Configure environment variables:
-
-Add JAVA_HOME pointing to the JDK folder.
-
-Append %JAVA_HOME%\bin to the system Path.
+1. Open Eclipse IDE.
+2. File → New → Java Project.
+3. Enter project name, uncheck “Use default location” to select desired workspace.
+4. Choose “Create separate folders for sources and class files”.
+5. Click Finish.
 
 
+### Running the project
 
-
-Using Eclipse IDE: Creating and Running Projects
-
-1. Launch Eclipse.
-
-
-2. Go to File → New → Java Project.
-
-
-3. Provide a project name and choose workspace if needed.
-
-
-4. Select “Create separate folders for sources and class files”.
-
-
-5. Finish the setup.
-
-
-
-Running your code
-
-Right-click on the main class → Run As → Java Application.
-
-Use Run → Run Configurations to pass arguments or customize settings.
-
-
+- Right-click the main class → Run As → Java Application.
+- Configure run configurations for specific arguments or settings via Run → Run Configurations.
 
 ---
 
-Project Setup Instructions
+1. Clone or Open the Project
+   Repository Link: https://github.com/atharvadixit677/CampusCoursesRecordsManager
+   Open the project in your IDE.
 
-1. Clone/Open the Repository
-Repository Link: CampusCoursesRecordsManager
-Open it in your IDE.
-
-
-2. Add CSV Data Files
-Ensure files are stored at:
-
-data/students.csv
-
-data/courses.csv
-
-data/enrollments.csv
-
-
+2. Place CSV Files
+Ensure the CSV files are available at:  
+`data/students.csv`  
+`data/courses.csv`  
+`data/enrollments.csv`
 
 3. Build the Project
-Compile source files in your IDE or with build tools (Maven/Gradle, if configured).
-
+Compile the Java source files in your IDE or use build tools like Maven/Gradle if configured.
 
 4. Run the Application
-Start the main class: edu.ccrm.cli.CCRMApp.
-The system will load records from the CSVs.
+Run the main class `edu.ccrm.cli.CCRMApp`. The application loads data from the CSV 
 
+### Screenshots
 
-
-
----
-
-Screenshots
-
-C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191616.png
-
-C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190123.png
-
-C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190231.png
-
-C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190405.png
-
-C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190415.png
-
-C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190432.png
-
-C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190446.png
-
-C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190650.png
-
-C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190716.png
-
-C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190904.png
-
-C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191041.png
-
-C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191122.png
-
-C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191251.png
-
-C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191333.png
-
-
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191616.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190123.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190231.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190405.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190415.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190432.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190446.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190650.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190716.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190904.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191041.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191122.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191251.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191333.png"
