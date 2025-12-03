@@ -72,19 +72,4 @@ Compile the Java source files in your IDE or use build tools like Maven/Gradle i
 4. Run the Application
 Run the main class `edu.ccrm.cli.CCRMApp`. The application loads data from the CSV 
 
-### Screenshots
 
-"C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190123.png"
-"C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190231.png"
-"C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191616.png"
-"C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190405.png"
-"C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190415.png"
-"C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190432.png"
-"C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190446.png"
-"C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190650.png"
-"C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190716.png"
-"C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190904.png"
-"C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191041.png"
-"C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191122.png"
-"C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191251.png"
-"C:\Users\Akshat Kumar\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191333.png"
